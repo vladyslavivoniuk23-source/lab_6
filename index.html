@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Гра Lights Out</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Гра "Lights Out"</h1>
+
+    <div id="controls">
+
+        <button onclick="loadLevel(0)">Рівень 1</button>
+
+        <button onclick="loadLevel(1)">Рівень 2</button>
+
+        <button onclick="loadLevel(2)">Рівень 3</button>
+
+    </div>
+
+    <div id="stats">
+        <p>Ходи: <span id="move-count">0</span> / Ціль: <span id="target-moves">0</span></p>
+        <button onclick="resetLevel()">Скинути рівень</button>
+    </div>
+    
+    <div id="game-board"></div>
+
+    <p id="status"></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
