@@ -1,0 +1,36 @@
+#game-board {
+
+    display: grid;
+
+    grid-template-columns: repeat(5, 50px);
+
+    gap: 5px;
+
+    margin-top: 20px;
+
+}
+#stats {
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#stats button {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.cell {
+
+    width: 50px;
+
+    height: 50px;
+
+    border: 1px solid #333;
+
+    cursor: pointer;
+
+}
+
+.on { background-color: #ffd700; }
+
+.off { background-color: #555; }
